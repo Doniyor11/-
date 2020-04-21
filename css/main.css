@@ -1,0 +1,852 @@
+@font-face {
+    font-family: 'HelveticaBold';
+    src: url(../font/HelveticaBold.ttf);
+}
+
+body {
+    background: #F5F5F5;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.price_text {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    right: 0;
+}
+
+.form-control{
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* header */
+
+header {
+    /* height: 100%; */
+    height: 100vh;
+    background-image: url(../img/7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'HelveticaBold' sans-serif;
+}
+
+header::after {
+    background: #000;
+}
+
+.navbar-toggler {
+    border: 1px solid #fff !important;
+}
+
+.navbar_hr {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    border-bottom: 1px solid #C6C9CC;
+}
+
+.navbar-nav .nav-link {
+    font-size: 20px;
+    font-family: 'HelveticaBold' sans-serif;
+    font-weight: 700;
+    color: #f6f6f6;
+}
+
+.collapse .btn-primary {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.header_wrap {
+    padding-top: 130px;
+}
+
+.header_wrap p {
+    font-size: 24px;
+    font-family: 'HelveticaMedium' sans-serif;
+}
+
+.header_wrap .btn-primary {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header_wrap .card {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+.header-dots {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    padding: 0;
+}
+
+.header-dots button {
+    border: none;
+    background-color: #fff;
+    opacity: 0.5;
+    font-size: 0;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    margin: 15px 5px 0 0;
+    display: block;
+}
+
+.header-dots .slick-active button {
+    opacity: 1;
+}
+
+.card-body p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-body h4 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+/*  */
+
+.usluga_phragarf h1 {
+    font-size: 54px;
+    font-weight: medium;
+}
+
+.usluga_phragarf, .services_phragarf {
+    font-size: 48px;
+}
+
+/* .flex-item:nth-of-type(1) {
+    flex-grow: 1;
+}
+
+.flex-item:nth-of-type(2) {
+    flex-grow: 1;
+}
+
+.flex-item:nth-of-type(3) {
+    flex-grow: 1;
+} */
+
+.flex-item {
+    /* width: 370px;
+    height: 370px; */
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    color: white;
+    font-weight: bold;
+}
+
+.price_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.price_cricle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px 0 0;
+    width: 50px;
+    height: 50px;
+    background: #E8CF2E;
+    border-radius: 50%;
+}
+
+.price_text small {
+    padding: 1.9px;
+}
+
+.price_text p {
+    line-height: 18px;
+    margin: 0;
+    padding: 1.9px;
+}
+
+.usluga_text h4 {
+    font-size: 36px;
+}
+
+.usluga_text button {
+    font-size: 28px;
+    font-weight: medium;
+}
+
+.usluga_text small {
+    font-size: 24px;
+}
+
+/*  */
+
+.services_box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #707070;
+    width: 380px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.services_box img {
+    margin: 0 auto;
+}
+
+.services_text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 0;
+    right: 0;
+}
+
+.services_info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20%;
+}
+
+.services_info p {
+    margin: 0;
+    padding: 0;
+    /* justify-content: center;
+    align-items: center; */
+    font-size: 25px;
+    font-weight: medium;
+    text-align: center;
+}
+
+/*  */
+
+.portfolio_box {
+    max-width: 380px !important;
+    /* height: 250px; */
+    cursor: pointer;
+    position: relative;
+}
+
+/* .portfolio_box img {
+    max-width: 380px;
+    height: 200px;
+} */
+
+.portfolio_btn {
+    position: absolute;
+    top: 4%;
+    left: 70%;
+    right: 0;
+}
+
+.portfolio_text {
+    position: absolute;
+    top: 81%;
+    left: 5%;
+    right: 0;
+}
+
+.portfolio_text p {
+    margin: 0;
+    padding: 0;
+    line-height: 18px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+
+/*  */
+
+.kind_wrap {
+    background-image: url(../img/kinds.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.kind_box {
+    max-width: 330px;
+    /* max-height: auto; */
+    margin: 0 65px 0 0;
+    cursor: pointer;
+}
+
+.kind_box img {
+    width: 180px;
+    margin: 0 auto;
+}
+
+.kind_box p {
+    font-size: 22px;
+}
+
+/*  */
+
+.video {
+    /* width: 474px;
+    height: 350px; */
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+
+.video_text{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.video_text center{
+    cursor: pointer;
+}
+
+/*  */
+
+.number_img {
+    background-image: url(../img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.number_forma {
+    margin: 0 auto;
+    width: 80%;
+    padding: 50px;
+}
+
+.number_forma p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.long_wrap {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.long_wrap p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.long_number {
+    width: 100px;
+    height: 100px;
+    border: 8px solid #034BC8;
+    border-radius: 50%;
+    background: #000;
+    justify-content: center;
+    align-items: center;
+}
+
+.long_number span {
+    font-weight: 700;
+    font-size: 30px;
+    color: #E8CF2E;
+}
+
+/*  */
+
+.footer {
+    background-image: url(../img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* media */
+
+@media (max-width: 1200px) {
+    header {
+        /* height: 100%; */
+        height: 100vh;
+        background-image: url(../img/7.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        font-family: 'HelveticaBold' sans-serif;
+    }
+    .navbar-nav .nav-link {
+        font-size: 18px;
+    }
+    .navbar .btn-primary {
+        font-size: 15px;
+    }
+    .header_wrap {
+        padding-top: 120px;
+    }
+    .header_wrap h1 {
+        font-size: 2em;
+    }
+    .header_wrap p {
+        font-size: 20px;
+    }
+    .header_wrap .btn-primary {
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .card-body h4 {
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .card-body p {
+        font-size: 21px;
+        font-weight: bold;
+    }
+    .usluga_phragarf, .services_phragarf {
+        font-size: 38px;
+    }
+    .price_text {
+        position: absolute;
+        top: 80%;
+        left: 5%;
+        right: 0;
+    }
+    .price_text p {
+        line-height: 16px;
+        margin: 0;
+        font-size: 11px;
+        padding: 2px;
+    }
+    .price_cricle {
+        width: 40px;
+        height: 40px;
+    }
+    .usluga_text h4 {
+        font-size: 30px;
+    }
+    .usluga_text .btn-primary {
+        font-size: 25px;
+    }
+    .usluga_text small {
+        font-size: 20px;
+    }
+    .portfolio_btn {
+        position: absolute;
+        top: 2%;
+        left: 75%;
+        right: 0;
+    }
+    .portfolio_btn button {
+        top: 2%;
+        font-size: 10px;
+    }
+    .portfolio_text {
+        position: absolute;
+        top: 75%;
+        left: 5%;
+        right: 0;
+    }
+    .portfolio_text p {
+        font-size: 18px;
+    }
+    .kind_box {
+        max-width: 300px;
+        margin: 0 60px 0 0;
+        cursor: pointer;
+    }
+    .kind_box img {
+        width: 300px;
+    }
+    .kind_box p {
+        font-size: 21px;
+    }
+    .number_forma {
+        margin: 0 auto;
+        width: 100%;
+        padding: 40px;
+    }
+    .numbur_forma {
+        font-size: 28px;
+    }
+    .long_number {
+        width: 85px;
+        height: 85px;
+    }
+    .long_wrap p {
+        line-height: 18px;
+        font-size: 15px;
+    }
+    .footer {
+        padding: 2rem;
+        font-size: smaller;
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        /* height: 100%; */
+        height: 100vh;
+        background-image: url(../img/7.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        font-family: 'HelveticaBold' sans-serif;
+    }
+    .navbar-nav .nav-link {
+        font-size: 18px;
+    }
+    .navbar .btn-primary {
+        font-size: 15px;
+    }
+    .header_wrap {
+        padding-top: 130px;
+    }
+    .header_wrap h1 {
+        font-size: 2em;
+    }
+    .header_wrap p {
+        font-size: 20px;
+    }
+    .header_wrap .btn-primary {
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .card-body {
+        margin-bottom: 0 !important;
+    }
+    .card-body h4 {
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .card-body p {
+        font-size: 21px;
+        font-weight: bold;
+    }
+    .usluga_phragarf, .services_phragarf {
+        font-size: 38px;
+    }
+    .price_text {
+        position: absolute;
+        top: 80%;
+        left: 5%;
+        right: 0;
+    }
+    .price_text p {
+        line-height: 16px;
+        margin: 0;
+        font-size: 11px;
+        padding: 2px;
+    }
+    .price_cricle {
+        width: 40px;
+        height: 40px;
+    }
+    .usluga_text h4 {
+        font-size: 30px;
+    }
+    .usluga_text .btn-primary {
+        font-size: 25px;
+    }
+    .usluga_text small {
+        font-size: 20px;
+    }
+    .portfolio_btn {
+        position: absolute;
+        top: 2%;
+        left: 70%;
+        right: 0;
+    }
+    .portfolio_btn button {
+        top: 2%;
+        font-size: 10px;
+    }
+    .portfolio_text {
+        position: absolute;
+        top: 60%;
+        left: 5%;
+        right: 0;
+    }
+    .portfolio_text p {
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+        font-weight: small;
+    }
+    .kind_box {
+        max-width: 300px;
+        margin: 0 60px 0 0;
+        cursor: pointer;
+    }
+    .kind_box img {
+        width: 300px;
+    }
+    .kind_box p {
+        font-size: 21px;
+    }
+    .number_forma {
+        margin: 0 auto;
+        width: 100%;
+        padding: 40px;
+    }
+    .numbur_forma {
+        font-size: 28px;
+    }
+    .long_number {
+        width: 85px;
+        height: 85px;
+    }
+    .long_wrap p {
+        line-height: 18px;
+        font-size: 14px;
+    }
+    .footer {
+        padding: 2rem;
+        font-size: smaller;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 100vh;
+        background-image: url(../img/7.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        font-family: 'HelveticaBold' sans-serif;
+    }
+    .navbar-nav .nav-link {
+        font-size: 15px;
+    }
+    .navbar .btn-primary {
+        font-size: 13px;
+    }
+    .header_wrap {
+        padding-top: 40px;
+    }
+    .header_wrap h1 {
+        font-size: 1.5em;
+    }
+    .header_wrap p {
+        font-size: 18px;
+    }
+    .header_wrap .btn-primary {
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .card-body {
+        margin-bottom: 0 !important;
+    }
+    .card-body h4 {
+        font-weight: bold;
+        font-size: 28px;
+    }
+    .card-body p {
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .usluga_phragarf, .services_phragarf {
+        font-size: 30px;
+    }
+    .price_text {
+        position: absolute;
+        top: 75%;
+        left: 5%;
+        right: 0;
+    }
+    .price_text p {
+        line-height: 12px;
+        margin: 0;
+        font-size: 9px;
+        padding: 2px;
+    }
+    .price_cricle {
+        width: 30px;
+        height: 30px;
+    }
+    .usluga_text h4 {
+        font-size: 20px;
+    }
+    .usluga_text .btn-primary {
+        font-size: 15px;
+    }
+    .usluga_text small {
+        font-size: 13px;
+    }
+    .services_info p {
+        font-size: 19px;
+    }
+    .portfolio_btn {
+        position: absolute;
+        top: 2%;
+        left: 70%;
+        right: 0;
+    }
+    .portfolio_btn button {
+        top: 2%;
+        font-size: 8px;
+    }
+    .portfolio_text {
+        position: absolute;
+        top: 65%;
+        left: 5%;
+        right: 0;
+    }
+    .portfolio_text p {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        font-weight: small;
+    }
+    .kind_box {
+        max-width: 200px;
+        margin: 0 60px 0 0;
+        cursor: pointer;
+    }
+    .kind_box img {
+        width: 160px;
+        margin: 0px 25px;
+    }
+    .kind_box p {
+        font-size: 18px;
+    }
+    .number_forma {
+        padding: 48px 0;
+    }
+    .number_forma p {
+        font-size: 20px;
+        ;
+    }
+    .long_number {
+        width: 70px;
+        height: 70px;
+    }
+    .long_number span {
+        font-size: 23px;
+    }
+    .long_wrap p {
+        font-size: 11px;
+    }
+    .footer_wrap {
+        font-size: 13px;
+    }
+    .copy {
+        display: none;
+    }
+    .footer {
+        padding: 80px 50px 0px !important;
+        font-size: smaller;
+    }
+    .footer h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 576px) {
+    .usluga_phragarf, .services_phragarf {
+        font-size: 25px;
+    }
+    .price_text small {
+        padding: 2.3px;
+        font-size: 15px;
+        margin: 0;
+    }
+    .price_text p {
+        line-height: 10px;
+        font-size: 12px;
+    }
+    .price_text {
+        position: absolute;
+        top: 65%;
+        left: 5%;
+        right: 0;
+    }
+    .services_text {
+        font-size: 14px;
+    }
+    .portfolio_text {
+        top: 65%;
+    }
+    .portfolio_text p {
+        font-size: 10px;
+    }
+    .portfolio_btn {
+        left: 57%;
+    }
+    .price {
+        flex-direction: column;
+    }
+    .price .img-fluid {
+        width: 100% !important;
+        height: 250px !important;
+    }
+    .price_text {
+        top: 81%;
+    }
+    .kind_box img {
+        width: 120px;
+        margin: 0px auto;
+    }
+    .long_number span {
+        font-size: 23px;
+    }
+    .footer_wrap {
+        text-align: center;
+    }
+    .footer {
+        padding: 50px 50px 0px !important;
+    }
+}
+
+@media (max-width: 376px) {
+    .video {
+        width: 474px;
+        height: 230px;
+    }
+    .price .img-fluid {
+        width: 100% !important;
+        height: 200px !important;
+    }
+    .price_text {
+        top: 76%;
+    }
+    .portfolio_text p {
+        line-height: 9px;
+        font-size: 0.5em;
+    }
+    .portfolio_text {
+        top: 70%;
+    }
+    .services_text {
+        font-size: 13px;
+        margin-left: 0.5rem !important;
+    }
+    .services_info p{
+        font-size: 14px;
+    }
+    .services_box img {
+        width: 100px;
+        margin: 0 auto;
+    }
+    .services_box {
+        height: 160px;
+    }
+    .footer h2 {
+        font-size: 20px;
+    }
+
+    
+}
